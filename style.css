@@ -14,6 +14,17 @@ a:hover {
   
   opacity: 100%;}
 
+@media only screen and (max-width: 500px)
+{ 
+    body { width: 90%;
+    height: auto;}
+    
+    img { width: 80px;
+height: 120px;}
+
+    a{opacity: 100%;}
+}
+
 
 
 #nav-bar {
@@ -43,8 +54,8 @@ justify-content: center;
     width:  600px;
     height: 800px;
     background-size: cover;
-    margin-top: 20px;
-    margin-left: 20px;}
+    margin-top: 10%;
+    margin-left: 10%;}
 
 
 
@@ -73,7 +84,7 @@ margin-left: 40px;
 
 #textbox { display: grid;
 grid-template-columns: 1fr 1fr;;
-column-gap: 30px;
+column-gap: 5%p;
 }
 
 p {color: white;
