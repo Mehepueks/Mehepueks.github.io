@@ -32,6 +32,12 @@ a:hover {
     figcaption {
         font-size: 20%;
     }
+
+    p {
+    font-size: 10px;
+    margin-top: 1%;
+    
+    }
  
 }
 
@@ -94,19 +100,22 @@ margin-left: 40px;
 #section1 {
 
     
-    margin-top: 200px;
+    margin-top: 10%;
 }
 
 #textbox { display: grid;
 grid-template-columns: 1fr 1fr;;
 column-gap: 5%p;
+max-width: 100%;
+max-height: auto;
+margin-left: 3%;
 }
 
 p {color: white;
     font-family: monospace;
-font-size: 20px;
+font-size: 2vmin;
 margin-top: -20px;
-margin-left: 40px;}
+margin-left: 3%;}
 
 #text2 {grid-column: 1;}
 
