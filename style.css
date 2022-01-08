@@ -6,7 +6,10 @@ body {background: black;}
     font-family: monospace;
 margin-top: 5%;}
    
-    
+ #BK {
+    margin: 3%;
+    font-size: 3vmin;
+ }   
 
 a {opacity: 30%;
     text-decoration: none;
@@ -15,7 +18,7 @@ a {opacity: 30%;
 a:hover {
   
   opacity: 100%;}
-
+/* mobile */
 @media only screen and (max-width: 500px)
 { 
     body { width: 100%;
@@ -38,7 +41,10 @@ a:hover {
         text-decoration: none;
     color: white;}
  
-
+    #BK {
+        
+        font-size: 2vmin;
+     }   
 
     figcaption {
         font-size: 20%;
@@ -51,6 +57,7 @@ a:hover {
     }
  
 }
+/* mobile */
 
 figure {
     width:600px;
