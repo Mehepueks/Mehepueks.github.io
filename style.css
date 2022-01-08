@@ -22,13 +22,17 @@ a:hover {
     height: auto;}
 
     #start {
-        margin: 50%;
+        margin-top: 50%;
     }
 
    #plakat {
     max-width: 100%;
        max-height: auto;
    }
+
+#section1 {
+     font-size: 1vmin;}
+
 
     a {opacity: 100%;
         text-decoration: none;
@@ -95,8 +99,9 @@ text-align: center;}
 
 /* Theater */
 
-#stage { width :auto; 
-    max-height:500px;
+#stage {max-width: 800px;
+    width :auto; 
+    max-height:400px;
     height: auto;
 background-size: cover;
 margin-top: 40px;
