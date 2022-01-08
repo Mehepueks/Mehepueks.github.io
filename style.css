@@ -1,5 +1,6 @@
 html {scroll-behavior: unset;}
 body {background: black;}
+#start {margin: 20%; text-align: center;}
 
 #text {color: white; text-align: center;
     font-family: monospace;
@@ -19,13 +20,19 @@ a:hover {
 { 
     body { width: 100%;
     height: auto;}
-    
+
+    #start {
+        margin: 50%;
+    }
+
    #plakat {
     max-width: 100%;
        max-height: auto;
    }
 
-    a{opacity: 100%;}
+    a {opacity: 100%;
+        text-decoration: none;
+    color: white;}
  
 
 
@@ -34,7 +41,7 @@ a:hover {
     }
 
     p {
-    font-size: 3vmin;
+    font-size: 2vmin;
     margin-top: 1%;
     
     }
@@ -48,13 +55,13 @@ figure {
 }
 
 #nav-bar {
-    margin-top: 30px;
+    margin-top: 3%;
     position: fixed;
     text-align:center;
     font-family: monospace;
 }
 
-#nav-linki {font-size: 30px;
+#nav-linki {font-size: 3vmin;
     color: aliceblue;
 
 }
@@ -89,7 +96,8 @@ text-align: center;}
 /* Theater */
 
 #stage { width :auto; 
-    height:500px;
+    max-height:500px;
+    height: auto;
 background-size: cover;
 margin-top: 40px;
 margin-left: 40px;
